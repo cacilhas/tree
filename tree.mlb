@@ -1,0 +1,11 @@
+ann
+  "redundantMatch ignore"
+in
+  local
+    $(SML_LIB)/basis/basis.mlb
+    tree-datatype.sml
+  in
+    tree.sig
+    tree.sml
+  end
+end
