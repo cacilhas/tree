@@ -3,6 +3,7 @@
 [node62]: http://homepages.inf.ed.ac.uk/stg/NOTES/node62.html
 [pipelines]: https://github.com/cacilhas/pipelines
 [smackage]: http://www.elsman.com/lessons/2014/10/02/getting-started-with-smackage
+[sML]: http://mlton.org/SuccessorML
 [tutorial]: http://homepages.inf.ed.ac.uk/stg/NOTES/notes.html
 [unittestml]: https://github.com/cacilhas/UnitTestML
 
@@ -11,7 +12,7 @@
 This lib provides the tree datatype according to the [node 62][node62] from the
 School of Informatics’ [Standard ML ’97 on-line tutorial][tutorial].
 
-Depends on [MLton][mlton].
+Depends on [MLton][mlton] with [SuccessorML][sML].
 
 ## Installing
 

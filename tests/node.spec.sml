@@ -1,4 +1,4 @@
-val () =
+do
   describe "Tree" (fn () =>
     let
       val empty = Tree.empty

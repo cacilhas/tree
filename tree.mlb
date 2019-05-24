@@ -1,6 +1,5 @@
-ann
-  "redundantMatch ignore"
-in
+ann "redundantMatch ignore" in
+ann "allowSuccessorML true" in
   local
     $(SML_LIB)/basis/basis.mlb
     tree-datatype.sml
@@ -8,4 +7,4 @@ in
     tree.sig
     tree.sml
   end
-end
+end end

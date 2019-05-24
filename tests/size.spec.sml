@@ -1,4 +1,4 @@
-val () =
+do
   describe "Tree" (fn () =>
     describe "size" (fn () =>
       let
