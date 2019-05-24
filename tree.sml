@@ -1,14 +1,15 @@
 structure Tree : TREE =
 struct
+  type 'a tree = 'a tree
   val empty = Empty
   val node = Node
 
-  fun size empty            = 0
-    | size (node (_, f, g)) = 1 + size f + size g
+  fun size Empty            = 0
+    | size (Node (_, f, g)) = 1 + size f + size g
 
-  fun value empty            = NONE
-    | value (node (v, _, _)) = SOME v
+  fun value Empty            = NONE
+    | value (Node (v, _, _)) = SOME v
 
-  fun maxPath empty            = 0
-    | maxPath (node (_, f, g)) = Int.max (1 + maxPath f, 1 + maxPath g)
+  fun depth Empty            = 0
+    | depth (Node (_, f, g)) = Int.max (1 + depth f, 1 + depth g)
 end

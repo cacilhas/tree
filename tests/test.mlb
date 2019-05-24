@@ -1,0 +1,12 @@
+local
+  $(SML_LIB)/basis/basis.mlb
+  $(SMACKAGE)/UnitTestML/v1/unittest.mlb
+  $(SMACKAGE)/pipelines/v1/pipelines.mlb
+  ../tree.mlb
+in
+  empty.spec.sml
+  node.spec.sml
+  size.spec.sml
+  depth.spec.sml
+  value.spec.sml
+end

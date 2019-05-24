@@ -1,6 +1,7 @@
 [license]: https://opensource.org/licenses/BSD-3-Clause
 [mlton]: http://mlton.org/
 [node62]: http://homepages.inf.ed.ac.uk/stg/NOTES/node62.html
+[pipelines]: https://github.com/cacilhas/pipelines
 [smackage]: http://www.elsman.com/lessons/2014/10/02/getting-started-with-smackage
 [tutorial]: http://homepages.inf.ed.ac.uk/stg/NOTES/notes.html
 [unittestml]: https://github.com/cacilhas/UnitTestML
@@ -36,7 +37,7 @@ TODO
 
 ## Testing
 
-Install [UnitTestML][unittestml] and run:
+Install [UnitTestML][unittestml] and [Pipelines][pipelines], and run:
 
 ```sh
 mlton tests/test.mlb
