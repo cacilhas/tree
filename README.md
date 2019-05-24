@@ -32,9 +32,22 @@ In your MLBasis add the entry:
 $(SMACKAGE)/tree/v1/tree.mlb
 ```
 
-## Examples
+### API and Examples
 
-TODO
+Creating a node:
+
+```sml
+val node = Tree.node(0, Tree.empty, Tree.empty)
+```
+
+The `Tree.node` expects a 3-element tuple: the value, the left node, and the
+right node. `Tree.empty` is an empty node.
+
+The *funs* that deals with nodes:
+
+- `Tree.depth : 'a tree -> int` returns the tree depth
+- `Tree.size  : 'a tree -> int` returns the size of the tree
+- `Tree.value : 'a tree -> 'a option` returns the value bound to the node
 
 ## Testing
 
