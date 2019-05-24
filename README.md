@@ -18,7 +18,7 @@ Depends on [MLton][mlton].
 Install [Smackage][smackage] and run:
 
 ```sh
-smackage source tree git https://github.com/cacilhas/tree
+smackage source tree git https://github.com/cacilhas/tree.git
 smackage refresh
 smackage get tree
 ```
